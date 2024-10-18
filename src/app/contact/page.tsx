@@ -133,6 +133,7 @@ const Contact: NextPage = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };
