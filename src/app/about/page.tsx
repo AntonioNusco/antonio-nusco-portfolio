@@ -30,10 +30,10 @@ const About: NextPage = () => {
                     I am Antonio Nusco a <span>Web Developer</span>
                   </h2>
                   <p>
-                    Hi, I'm Antonio Nusco, a passionate web developer with 2 years of experience specializing in <strong className="green-label">PrestaShop</strong> and <strong className="green-label">WordPress</strong> development.
+                    Hi, I&apos;m Antonio Nusco, a passionate web developer with 2 years of experience specializing in <strong className="green-label">PrestaShop</strong> and <strong className="green-label">WordPress</strong> development.
                     I create custom e-commerce solutions, themes, and plugins, ensuring optimal performance and <strong className="green-label">SEO</strong>.
                     I also work with <strong className="green-label">Angular</strong>, <strong className="green-label">Next.js</strong>, <strong className="green-label">Node.js</strong>, <strong className="green-label">HTML</strong>, <strong className="green-label">CSS</strong>, and <strong className="green-label">JavaScript</strong> to build fast, responsive websites tailored to your needs.
-                    Let's bring your project to life with modern, efficient, and high-ranking web solutions!
+                    Let&apos;s bring your project to life with modern, efficient, and high-ranking web solutions!
                   </p>
                 </div>
               </div>
