@@ -6,7 +6,7 @@ import NextTopLoader from "nextjs-toploader";
 const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <ThemeProvider enableSystem>
-      <NextTopLoader />
+      <NextTopLoader color="#2ecc71" showSpinner={false}/>
       {children}
     </ThemeProvider>
   );

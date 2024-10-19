@@ -68,33 +68,6 @@ const About: NextPage = () => {
               <div className="row" style={{ justifyContent: 'center' }}>
                 <div className="personal-info padd-15">
                   <div className="row">
-                    <div className="info-item padd-15">
-                      <p>
-                        Website : <span>www.antonionusco.it</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Email : <span>dev.antonio.nusco@gmail.com</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Phone : <span>+39 3664887789</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        City : <span>Italy</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row">
                     <div className="buttons padd-15">
                       <a
                         href="/contact"
