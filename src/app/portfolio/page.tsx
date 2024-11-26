@@ -18,6 +18,7 @@ const Portfolio: NextPage = () => {
       id: 1,
       category: "prestashop",
       title: "OraPesca",
+      imgAlt: "Prestashop",
       imgSrc: "/imgs/portfolio/FotoOraPesca.png",
       link: "https://orapesca.it",
     },
@@ -25,8 +26,17 @@ const Portfolio: NextPage = () => {
       id: 2,
       category: "wordpress",
       title: "Ap0r1a",
+      imgAlt: "Wordpress Woocommerce",
       imgSrc: "/imgs/portfolio/FotoAp0r1a.png",
       link: "https://ap0r1a.com",
+    },
+    {
+      id: 3,
+      category: "nextjs",
+      title: "Antonio Nusco Portfolio",
+      imgAlt: "Next js",
+      imgSrc: "/imgs/portfolio/AntonioNuscoPortfolio.png",
+      link: "https://antonio-nusco.it",
     }
   ];
 
@@ -73,6 +83,13 @@ const Portfolio: NextPage = () => {
               >
                 PrestaShop
               </button>
+              <button
+                type="button"
+                className={activeFilter === "nextjs" ? "active" : ""}
+                onClick={() => handleFilterClick("nextjs")}
+              >
+                Next.js
+              </button>
             </div>
           </div>
           <div className="row">
@@ -84,7 +101,7 @@ const Portfolio: NextPage = () => {
               >
                 <div className="portfolio-item-inner shadow-dark" onClick={() => handleClick(item.link)}>
                   <div className="portfolio-img">
-                    <img src={item.imgSrc} alt={item.title} />
+                    <img src={item.imgSrc} alt={item.imgAlt} />
                   </div>
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>

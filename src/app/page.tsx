@@ -7,9 +7,8 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <img
-              src="/imgs/alsiam.png"
-              alt="Al Siam Profile"
-              className="shadow-dark"
+              src="/imgs/antonio-nusco.png"
+              alt="Antonio Nusco"
             />
             <h1>Antonio Nusco</h1>
             <p>Web Developer</p>
